@@ -1,0 +1,26 @@
+.btn-resume{
+    text-align: center;
+    width: 159px;
+    height: 150px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.btn-resume:hover{
+    transform: rotate(360deg);
+    border-radius: 0%;
+}
+
+.rotate {
+    transition: all 5s ease-in-out;
+  }
+  .rotate:hover {
+    transition: all 5s ease-in-out;
+  }
