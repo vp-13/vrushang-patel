@@ -17,6 +17,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatIconModule} from '@angular/material/icon';
 import { EducationComponent } from './pages/education/education.component';
 import { ProjectComponent } from './pages/project/project.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { AgmCoreModule } from '@agm/core';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,8 @@ import { ProjectComponent } from './pages/project/project.component';
     ExperienceComponent,
     SkillsComponent,
     EducationComponent,
-    ProjectComponent
+    ProjectComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
@@ -37,7 +40,10 @@ import { ProjectComponent } from './pages/project/project.component';
     RouterModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatIconModule
+    MatIconModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyCu-i1senix0owJm8Akw9wIP9dHCGvABag'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]

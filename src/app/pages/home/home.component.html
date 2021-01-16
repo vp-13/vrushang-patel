@@ -60,26 +60,45 @@
         </div>
     </div>
     
-        <div class="section ">
+        <div class="section" id="education">
             <div class="container">            
-                <div id="education">
-                    <div class="title" style="padding-top: 90px;"  ><h1><b>Education </b></h1></div>
+                <div>
+                    <div class="title" style="font-size:40px"  ><b>Education </b></div>
                     <app-education></app-education>
-                    <div class="title" id="experience" style="padding-top: 80px;"><h1><b>Experience</b></h1></div>
-                    <app-experience></app-experience>
-                    <div class="title" id="skills" style="padding-top: 80px;"><h1><b>Skills</b></h1></div>
-                    <app-skills></app-skills>
-                </div>            
-    
             </div>
         </div>
-    
+        <div class="section" id="experience">
+            <div class="container">            
+                <div>
+                    <div class="title"  style="font-size:40px"><b>Experience</b></div>
+                        <app-experience></app-experience>
+                    </div>
+            </div>
+        </div>    
+        <div class="section " id="skills">
+            <div class="container">            
+                <div>
+                    <div class="title"  style="font-size:40px"><b>Skills</b></div>
+                    <app-skills></app-skills>   
+            </div>
+        </div>
+        
+    </div>
 
 <!-- Project -->
 
-<div class="section section-dark text-center">
+<div class="section section-dark text-center" id="project" style="padding-top: 100px;">
     <div class="container">
-        <h1 class="title" id="project"><b>Project</b></h1><br>
+        <p class="title"  style="font-size:40px;font-weight: bold;"><b>Project</b></p><br><br><br>
         <app-project></app-project>
+        </div>
+</div>
+
+<!-- Contact -->
+
+<div class="section text-center" id="contact" style="padding-top: 100px;">
+    <div class="container">
+        <p class="title"  style="font-size:40px;font-weight: bold;"><b>Contact</b></p><br><br><br>
+        <app-contact></app-contact>
         </div>
 </div>
