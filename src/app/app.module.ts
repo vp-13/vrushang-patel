@@ -18,7 +18,6 @@ import {MatIconModule} from '@angular/material/icon';
 import { EducationComponent } from './pages/education/education.component';
 import { ProjectComponent } from './pages/project/project.component';
 import { ContactComponent } from './pages/contact/contact.component';
-import { AgmCoreModule } from '@agm/core';
 
 @NgModule({
   declarations: [
@@ -41,9 +40,7 @@ import { AgmCoreModule } from '@agm/core';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatIconModule,
-    AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyCu-i1senix0owJm8Akw9wIP9dHCGvABag'
-    })
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

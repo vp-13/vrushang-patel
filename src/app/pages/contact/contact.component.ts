@@ -11,7 +11,5 @@ export class ContactComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  lat = 28.704060;
-  long = 77.102493;
-  googleMapType = 'satellite';
+
 }
