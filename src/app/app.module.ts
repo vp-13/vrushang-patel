@@ -16,6 +16,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatIconModule} from '@angular/material/icon';
 import { EducationComponent } from './pages/education/education.component';
+import { ProjectComponent } from './pages/project/project.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { EducationComponent } from './pages/education/education.component';
     AboutComponent,
     ExperienceComponent,
     SkillsComponent,
-    EducationComponent
+    EducationComponent,
+    ProjectComponent
   ],
   imports: [
     BrowserModule,
