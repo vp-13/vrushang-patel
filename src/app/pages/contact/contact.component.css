@@ -2,3 +2,14 @@
     text-decoration: none;
     
 }
+.col-md-4{
+    padding: 20px;
+}
+
+.card{
+    height: 100px;
+}
+
+img{
+    height: 25px;
+}
